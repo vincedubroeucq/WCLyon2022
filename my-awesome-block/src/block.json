@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/my-awesome-block",
+	"version": "0.1.0",
+	"title": "My Awesome Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Block created as an example for the WCLyon 2022 workshop Développer son premier bloc.",
+	"supports": {
+		"align": true,
+		"html": false,
+		"color": true,
+		"spacing": true,
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		}
+	},
+	"styles": [
+		{ "name": "default", "label": "Default", "isDefault": true },
+		{ "name": "rounded", "label": "Rounded" }
+	],
+	"variations": [
+        {
+            "name": "flash",
+            "title": "Flash testimonial",
+            "attributes": {
+                "source": "Flash",
+                "content": "<p>Hey, Priscilla ! <br>Quel mot qualifie une chamelle à trois bosses ?!</p>"
+            }
+        }
+    ],
+	"attributes": {
+		"content": {
+			"type": "string",
+			"default": ""
+		},
+		"source": {
+			"type": "string",
+			"default": ""
+		},
+		"image": {
+			"type": "object",
+			"default": {}
+		},
+		"textAlign": {
+			"type": "string",
+			"default": ""
+		},	
+		"rounded": {
+			"type": "boolean",
+			"default": false
+		}	
+	},
+	"textdomain": "my-awesome-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-my-awesome-block {
+	display: flex;
+	.image {
+		flex-shrink: 0;
+		max-width: 150px;
+	}
+	img {
+		display: block;
+	}
+	p {
+		margin-top: 0;
+	}
+	.content {
+		flex: 1;
+		padding: 1rem;
+	}
+	.rounded {
+		border-radius: 50%;
+	}
+	&.is-style-rounded {
+		background: pink;
+		border-radius: 25px;
+		padding: 1.5rem;
+		img {
+			border-radius: 50%;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-my-awesome-block {
+  display: flex;
+}
+.wp-block-create-block-my-awesome-block .image {
+  flex-shrink: 0;
+  max-width: 150px;
+}
+.wp-block-create-block-my-awesome-block img {
+  display: block;
+}
+.wp-block-create-block-my-awesome-block p {
+  margin-top: 0;
+}
+.wp-block-create-block-my-awesome-block .content {
+  flex: 1;
+  padding: 1rem;
+}
+.wp-block-create-block-my-awesome-block .rounded {
+  border-radius: 50%;
+}
+.wp-block-create-block-my-awesome-block.is-style-rounded {
+  background: pink;
+  border-radius: 25px;
+  padding: 1.5rem;
+}
+.wp-block-create-block-my-awesome-block.is-style-rounded img {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

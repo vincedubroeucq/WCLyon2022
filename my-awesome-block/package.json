@@ -1,0 +1,20 @@
+{
+	"name": "my-awesome-block",
+	"version": "0.1.0",
+	"description": "Block created as an example for the WCLyon 2022 workshop 'Développer son premier bloc'",
+	"author": "Vincent Dubroeucq",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^24.3.0"
+	}
+}

@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-my-awesome-block {
+	.image-wrapper {
+		position: relative;
+	}
+	.image {
+		width: 150px;
+	}
+	.is-link.is-destructive {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	.dashicons-cover-image {
+		font-size: 50px;
+		height: auto;
+		width: 100%;
+	}
+	.components-button.has-icon.has-text .dashicon {
+		margin-right: 0;
+	}
+	.add-media {
+		width: 100%;
+		height: 100%;
+	}
+}
